@@ -1,0 +1,9 @@
+@import 'materialize';
+select{
+  display:block;
+  width: 15%;
+}
+materialize-textarea{
+  width: 20%;
+  word-wrap: break-word;
+}

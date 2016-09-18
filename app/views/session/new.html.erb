@@ -1,0 +1,20 @@
+<h1 >Login </h1>
+<div class="initial_page">
+  <body class="<%=controller_name%> <%=action_name%>">
+
+
+
+
+<%= form_tag login_path do %>
+  <p>
+    <div class="colors"> <%= label_tag :email_id %></div>
+    <%= email_field_tag :email_id, "", :required => true %>
+  </p>
+  <p>
+    <div class="colors"><%= label_tag :password %></div>
+    <%= password_field_tag :password, "", :required => true %>
+  </p>
+
+  <%= submit_tag "Login" ,:class => "waves-effect waves-light btn"%>
+<% end %>
+</div>
