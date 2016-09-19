@@ -1,2 +1,3 @@
 ### Group name:
-- Lucas Vilela 
+- Lucas Vilela
+- JongIn BAE
